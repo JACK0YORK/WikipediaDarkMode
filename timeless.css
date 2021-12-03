@@ -1,0 +1,74 @@
+#mw-header-container{
+	background-color: #333;
+}
+
+body,
+.infobox,
+ul#filetoc, 
+.toc, 
+.toccolours, 
+.mw-warning,
+.thumbinner,
+#mw-content,
+#mw-content-container {
+	background-color: #333;
+	color: #EEE;
+}
+
+.mw-body .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend, 
+.mw-changeslist-legend, 
+.mw-body .mw-search-profile-tabs, 
+.mw-body fieldset#mw-searchoptions, 
+.mw_metadata, 
+.wikitable, 
+.mw-datatable,
+.mw-parser-output .portal>ul,
+.mw-parser-output .navbox, 
+.mw-parser-output .navbox-subgroup,
+.content-table >table>tbody>tr>td,
+tr {
+	background: #393939 !important;
+	color: #EEE !important;
+}
+
+.wikitable > tr > th, .wikitable > * > tr > th,
+.infobox-header,
+.infobox-subheader, 
+.navbox th, 
+.navbox-title,
+th {
+	background-color: #292929 !important;
+}
+
+#personal,
+#p-banner > img{
+	filter: invert(1);
+}
+
+#pt-notifications-notice > a {
+	filter: brightness(0.6);
+}
+
+.mw-portlet-body {
+	filter: invert(1);
+}
+
+table.fmbox-warning {
+	background-color: #322 !important;
+}
+
+#mw-script-doc {
+	background: #303930 !important;
+}
+
+#simpleSearch{
+	background: #eee;
+}
+
+
+@media screen and (min-width: 1340px){
+	#mw-site-navigation .sidebar-chunk,
+	#mw-related-navigation .sidebar-chunk{
+		background: #333 !important;
+	}
+}
